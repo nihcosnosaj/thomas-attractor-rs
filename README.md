@@ -12,9 +12,11 @@ Thomas' Cyclically Symmetric Attractor is a dynamical system with very very high
 The system is governed by three coupled, non-linear ordinary differential equations:
 
 $$
-dtdx​=sin(y)−bx
-dtdy​=sin(z)−by
-dtdz​=sin(x)−bz
+\begin{aligned}
+\frac{dx}{dt} &= \sin(y) - bx \\
+\frac{dy}{dt} &= \sin(z) - by \\
+\frac{dz}{dt} &= \sin(x) - bz
+\end{aligned}
 $$
 
 where $b$ represents the dissipation constant.
